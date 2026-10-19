@@ -1,0 +1,65 @@
+secure-student-management/
+│
+├── .gitignore
+├── README.md
+├── pom.xml
+│
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── example/
+    │   │           └── studentmanagement/
+    │   │
+    │   │               ├── StudentManagementApplication.java
+    │   │               │
+    │   │               ├── auth/
+    │   │               │   ├── AuthController.java
+    │   │               │   ├── AuthService.java
+    │   │               │   ├── LoginRequest.java
+    │   │               │   ├── LoginResponse.java
+    │   │               │   ├── RegisterRequest.java
+    │   │               │   ├── RefreshToken.java
+    │   │               │   ├── RefreshTokenRepository.java
+    │   │               │   ├── RefreshTokenRequest.java
+    │   │               │   └── RefreshTokenService.java
+    │   │               │
+    │   │               ├── config/
+    │   │               │   ├── DataInitializer.java
+    │   │               │   └── SecurityConfig.java
+    │   │               │
+    │   │               ├── exception/
+    │   │               │   ├── GlobalExceptionHandler.java
+    │   │               │   └── ResourceNotFoundException.java
+    │   │               │
+    │   │               ├── security/
+    │   │               │   ├── CustomUserDetailsService.java
+    │   │               │   ├── JwtAuthenticationFilter.java
+    │   │               │   └── JwtService.java
+    │   │               │
+    │   │               ├── student/
+    │   │               │   ├── Student.java
+    │   │               │   ├── StudentController.java
+    │   │               │   ├── StudentRepository.java
+    │   │               │   └── StudentService.java
+    │   │               │
+    │   │               └── user/
+    │   │                   ├── Role.java
+    │   │                   ├── User.java
+    │   │                   ├── UserController.java
+    │   │                   ├── UserRepository.java
+    │   │                   └── UserResponse.java
+    │   │
+    │   └── resources/
+    │       ├── application.properties
+    │       └── static/
+    │
+    └── test/
+        └── java/
+            └── com/
+                └── example/
+                    └── studentmanagement/
+                        ├── StudentManagementApplicationTests.java
+                        ├── auth/
+                        ├── student/
+                        └── user/

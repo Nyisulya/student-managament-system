@@ -1,0 +1,678 @@
+Open CMD and run
+"mvn spring-boot:run"
+
+postgres=# \l
+                                                                          List of databases
+        Name        |  Owner   | Encoding | Locale Provider |           Collate           |            Ctype            | Locale | ICU Rules |   Access privileges
+--------------------+----------+----------+-----------------+-----------------------------+-----------------------------+--------+-----------+-----------------------
+ postgres           | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           |
+ student_management | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           |
+ template0          | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           | =c/postgres          +
+                    |          |          |                 |                             |                             |        |           | postgres=CTc/postgres
+ template1          | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           | =c/postgres          +
+                    |          |          |                 |                             |                             |        |           | postgres=CTc/postgres
+ vehicle_hub        | postgres | UTF8     | libc            | English_United Kingdom.1252 | English_United Kingdom.1252 |        |           |
+(5 rows)
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.401 s
+[INFO] Finished at: 2026-10-05T17:41:38+03:00
+[INFO] ------------------------------------------------------------------------
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.943 s
+[INFO] Finished at: 2026-10-06T09:55:32+03:00
+[INFO] ------------------------------------------------------------------------
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.029 s
+[INFO] Finished at: 2026-10-06T10:06:18+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.249 s
+[INFO] Finished at: 2026-10-06T10:15:39+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.149 s
+[INFO] Finished at: 2026-10-06T10:20:18+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.779 s
+[INFO] Finished at: 2026-10-06T10:24:36+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.617 s
+[INFO] Finished at: 2026-10-06T10:28:14+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.213 s
+[INFO] Finished at: 2026-10-06T10:34:09+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.635 s
+[INFO] Finished at: 2026-10-06T10:45:42+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.285 s
+[INFO] Finished at: 2026-10-06T10:51:06+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.861 s
+[INFO] Finished at: 2026-10-06T10:58:45+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.065 s
+[INFO] Finished at: 2026-10-06T13:01:03+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.852 s
+[INFO] Finished at: 2026-10-06T13:17:53+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.351 s
+[INFO] Finished at: 2026-10-06T13:32:00+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.714 s
+[INFO] Finished at: 2026-10-06T14:11:30+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.807 s
+[INFO] Finished at: 2026-10-06T14:28:18+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.143 s
+[INFO] Finished at: 2026-10-06T14:32:43+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.666 s
+[INFO] Finished at: 2026-10-06T14:38:30+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.222 s
+[INFO] Finished at: 2026-10-06T15:01:31+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.128 s
+[INFO] Finished at: 2026-10-06T15:21:06+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.846 s
+[INFO] Finished at: 2026-10-06T15:47:49+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 26 source files with javac [debug parameters release 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.617 s
+[INFO] Finished at: 2026-10-06T15:53:52+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.389 s
+[INFO] Finished at: 2026-10-06T16:01:00+03:00
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------< com.studentmanagement:studentmanagement >---------------
+[INFO] Building Student Management 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.5.0:resources (default-resources) @ studentmanagement ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.15.0:compile (default-compile) @ studentmanagement ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.808 s
+[INFO] Finished at: 2026-10-07T22:47:00+03:00
+
+
+Microsoft Windows [Version 10.0.17134.1726]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn spring-boot:run
+...
+    : Tomcat started on port 8080 (http) with context path '/'
+2026-10-07T23:25:57.941+03:00  INFO 3352 --- [studentmanagement] [  restartedMain] c.s.s.StudentmanagementApplication       : Started StudentmanagementApplication in 19.111 seconds (process running for 20.883)
+...
+
+RESULT:
+Status: 200 OK
+{
+    "accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc5MTQwNzQzMiwiZXhwIjoxNzkxNDA4MzMyfQ.ZuTFGq0joQgyj8uRn08QP8wF_2HFYPx42rrqURM0RGpE5jh5hkMTFAamwtLvM6yN",
+    "refreshToken":"0d82370f-f114-425e-905c-757517167fd3"
+}
+
+D:\Andrew Mhina\BACHELOR OF SCIENCE IN INFORMATION AND COMMUNICATION TECHNOLOGY LEVEL 2\Industrial Training DIT\StudentManagement\studentmanagement>mvn spring-boot:run
+ : Tomcat started on port 8080 (http) with context path '/'
+  : Started StudentmanagementApplication in 13.185 seconds
+
+RESULT:
+Status: 200 OK
+{
+    "accessToken":"eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc5MTUzNTIwMSwiZXhwIjoxNzkxNTM2MTAxfQ.xrOGlvsnoPpBvYLcMPWFYmg-OvJ3cIGckL8x1OJJDmd0CtvmhMP4esc-u46U3NOw",
+    "refreshToken":"853f1f98-a595-4dfb-aba4-7ae0b9928098"
+}
+
+JSON 
+{
+    "registrationNumber": "STU002",
+    "fullName": "Mary Joseph",
+    "email": "mary.joseph@gmail.com",
+    "phone": "0751234567",
+    "gender": "Female",
+    "dateOfBirth": "2003-08-20"
+}
+
+RESULT:
+Status: 200 OK
+{
+    "registrationNumber":"STU002",
+    "fullName":"Mary Joseph",
+    "email":"mary.joseph@gmail.com",
+    "phone":"0751234567",
+    "gender":"Female",
+    "dateOfBirth":"2003-08-20",
+    "id":2
+}
+
+RESULT:
+Status: 200 OK
+[
+    {
+        "registrationNumber":"STU002",
+        "fullName":"Mary Joseph",
+        "email":"mary.joseph@gmail.com",
+        "phone":"0751234567",
+        "gender":"Female",
+        "dateOfBirth":"2003-08-20",
+        "id":2
+    }
+]
+
+RESULT:
+Status: 200 OK
+{
+    "registrationNumber":"STU002",
+    "fullName":"Mary Joseph",
+    "email":"mary.joseph@gmail.com",
+    "phone":"0751234567",
+    "gender":"Female",
+    "dateOfBirth":"2003-08-20",
+    "id":2
+}
+
+JSON
+{
+    "registrationNumber": "STU002",
+    "fullName": "Mary Joseph Updated",
+    "email": "mary.joseph@gmail.com",
+    "phone": "0751234567",
+    "gender": "Female",
+    "dateOfBirth": "2003-08-20"
+}
+
+RESULT:
+Status: 200 OK
+{
+    "registrationNumber":"STU002",
+    "fullName":"Mary Joseph Updated",
+    "email":"mary.joseph@gmail.com",
+    "phone":"0751234567",
+    "gender":"Female",
+    "dateOfBirth":"2003-08-20",
+    "id":2
+}
+Then click "Save"
+
+RESULT:
+Status: 200 OK
+Student deleted successfully
+Then click "Save"
+
+CREATE THE REGISTER USER REQUEST
+POST http://localhost:8080/api/auth/register
+
+JSON
+{
+  "username": "teststudent01",
+  "email": "teststudent01@gmail.com",
+  "password": "Test12345"
+}
+
+Status: 200 OK
+{
+    "id":4,
+    "username":"teststudent01",
+    "email":"teststudent01@gmail.com",
+    "role":"STUDENT"
+}
+
+Test duplicate registration
+Your assignment requires the API to reject duplicate usernames or email addresses.
+1. Keep the same Register User request open.
+2. Leave the username, email, and password exactly as they are.
+3. Click Send again.
+This tests whether the API prevents registering teststudent01 twice.
+
+Status: 400 Bad request
+{"error":"Username already exists"}
+
+Test duplicate email validation
+We have tested duplicate usernames. Now let's check whether your API also rejects an email address 
+that is already registered.
+Use a new username but an email belonging to an existing user.
+
+JSON
+{
+  "username": "emailtest01",
+  "email": "teststudent01@gmail.com",
+  "password": "Student123"
+}
+
+Status: 400 Bad request
+{"error":"Email already exists"}
+
+Test login with an incorrect password
+Now we will verify that an existing user cannot log in using the wrong password.
+
+JSON
+{
+  "username": "admin",
+  "password": "WrongPassword123"
+}
+
+Status: 400 Bad request
+{"error":"Bad credentials"}
